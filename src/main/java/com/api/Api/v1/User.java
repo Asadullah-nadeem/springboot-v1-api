@@ -6,4 +6,22 @@ public class User {
   private String Message;
 
   // Constructor
+  public User(int id, String Name, String Message){
+    this.id =  id;
+    this.Name = Name;
+    this.Message = Message;
+  }
+
+
+  // Getter
+  public int getID(){
+    return id;
+  }
+  public String getName(){
+    return Name;
+  }
+  public String getMessage(){
+    return Message;
+  }
+
 }
